@@ -10,6 +10,8 @@
     <!-- SweetAlert CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.10/dist/sweetalert2.min.css">
 
+    <!-- Tailwind css -->
+    <link rel=”stylesheet” href=”https://cdn.tailwindcss.com/3.4.1”>
     <!-- SweetAlert JS -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.7.10/dist/sweetalert2.min.js"></script>
 
