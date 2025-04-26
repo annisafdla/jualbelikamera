@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ListBarangController;
 use App\Http\Controllers\LoginRegisterController;
 use App\Http\Controllers\ProfilController;
+use App\Http\Controllers\ListProductController;
 
 Route::get('/welcome', function () {
     return view('welcome');
@@ -32,3 +33,5 @@ Route::get('/user/{id}', function ($id) {
  Route::get('/loginregister', [LoginRegisterController::class, 'index']);
 
  Route::get('/profil', [ProfilController::class, 'index']);
+
+ Route::get('/list_product', [ListProductController::class, 'index']);
